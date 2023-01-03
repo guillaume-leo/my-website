@@ -1,3 +1,11 @@
-body {
-  background: green;
-}
+@import '~/assets/reset.scss';
+
+/**----------------------
+ *    components
+ *------------------------**/
+
+@import '~/assets/layout-default.scss';
+@import '~/assets/links.scss';
+@import '~/assets/icons.scss';
+@import '~/assets/navbar.scss';
+
