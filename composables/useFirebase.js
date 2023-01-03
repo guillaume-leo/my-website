@@ -18,8 +18,8 @@ const firebaseConfig = {
   measurementId: 'G-C11DQC2WY1',
 };
 
-export const initFirebaseApp = async () => {
-  const app = await initializeApp(firebaseConfig);
+export const initFirebaseApp = () => {
+  const app = initializeApp(firebaseConfig);
   return app;
 };
 
