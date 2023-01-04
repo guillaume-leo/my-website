@@ -2,7 +2,7 @@
   <div class="page">
     <PhoneNavbar />
     <div class="page__content">
-      <slot></slot>
+      <NuxtPage></NuxtPage>
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ useHead({
     },
     {
       rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swapp',
+      href: 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap',
       crossorigin: ''
     }
   ]
@@ -26,6 +26,6 @@ useHead({
 
 <style lang="scss">
 html {
-  font-family: "Share Tech Mono";
+  font-family: "Fira Code";
 }
 </style>

@@ -1,0 +1,64 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 15px;
+}
+
+.project:first-of-type {
+  margin-block-start: 50px;
+}
+
+.project:last-of-type {
+  margin-block-end: 50px;
+}
+
+.project__separator {
+  margin-block: 15px;
+  color: rgba($color: #000000, $alpha: 0.2);
+}
+
+.project__title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.project__date {
+  font-size: 15px;
+  text-align: center;
+  font-variant: small-caps;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.project__description {
+  font-size: 15px;
+  font-variant: small-caps;
+  font-weight: 100;
+}
+
+.project__section {
+  text-align: center;
+}
+
+.technos__techno {
+  font-size: 15px;
+  font-variant: small-caps;
+  font-weight: 100;
+  padding-inline-start: 10px;
+}
+
+.links__link {
+  font-size: 15px;
+  font-variant: small-caps;
+  font-weight: 100;
+  margin-inline-start: 10px;
+  padding-inline: 5px;
+  color: red;
+}
