@@ -1,0 +1,91 @@
+.timeline {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: -1;
+
+}
+
+.phase {
+  min-height: 200px;
+  margin-inline: auto;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-inline: 10px;
+
+}
+
+.phase:first-of-type {
+  margin-block-start: 100px;
+}
+
+.phase__step {
+  max-width: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.step__dot {
+  min-height: 20px;
+  border-radius: 50%;
+  border: solid 2px black;
+}
+
+.step__line {
+  background-color: black;
+  flex-grow: 1;
+  min-width: 2px;
+  margin-inline: auto;
+}
+
+.phase__step, .phase__text {
+  // border: solid 1px red;
+  flex: 1 1 0;
+} 
+
+.phase__date {
+  flex: 1 1 0px;
+  max-width: 50px;
+  font-variant: small-caps;
+  font-weight: 100;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.phase__date, .phase__text {
+  margin-block-start: -2px;
+  padding-inline: 10px;
+}
+
+.phase__text {
+  padding-block-end: 20px;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__title {
+  font-size: 20px;
+}
+
+.card__description {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.card__mission {
+  padding-inline-start: 10px;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.card h2 {
+  font-size: 14px;
+}

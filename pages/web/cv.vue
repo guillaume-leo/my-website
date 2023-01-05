@@ -1,3 +1,3 @@
 <template>
-  cv page
+  <Timeline />
 </template>
