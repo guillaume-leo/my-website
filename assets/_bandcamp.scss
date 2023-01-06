@@ -1,0 +1,77 @@
+.button--sign-in, .button--sign-out, .button--submit {
+  display: block;
+}
+
+.button {
+  color: red;
+  font-variant: small-caps;
+  &:hover{
+    background: black;
+    color: white;
+  }
+}
+
+.button--detail {
+  text-align: center;
+  margin-block: 10px;
+
+}
+
+.button--sign-in, .button--submit {
+  min-width: 50px;
+  max-height: 50%;
+  border: solid 1px black;
+  margin-block: 10px;
+}
+
+.input--label {
+  display: inline-block;
+}
+
+.input--text {
+  display: block;
+  width: 100%;
+  height: 25px;
+  padding-block: 5px;
+  padding-inline: 3px;
+  border: 1px solid black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__field--tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.tag {
+  width: fit-content;
+  padding: 5px;
+  color: black;
+  &:hover {
+    outline: solid 1px red;
+  }
+}
+
+.tag--selected {
+  background-color: black;
+  color: white;
+}
+
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

@@ -7,6 +7,7 @@
     <div v-show="isNavOpen" class="links links--phone">
       <NuxtLink @click="handleClick" class="link" to="/">Home</NuxtLink>
       <NuxtLink @click="handleClick" class="link" to="/web">Web Development</NuxtLink>
+      <NuxtLink @click="handleClick" class="link" to="/bandcamp">bandcamp</NuxtLink>
       <NuxtLink @click="handleClick" class="link" to="/art">Art</NuxtLink>
       <NuxtLink @click="handleClick" class="link" to="/contact">Contact</NuxtLink>
     </div>
