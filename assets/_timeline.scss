@@ -1,11 +1,3 @@
-.timeline {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  z-index: -1;
-
-}
 
 .phase {
   min-height: 200px;
@@ -18,7 +10,7 @@
 }
 
 .phase:first-of-type {
-  margin-block-start: 100px;
+  margin-block-start: 50px;
 }
 
 .phase__step {
@@ -41,7 +33,6 @@
 }
 
 .phase__step, .phase__text {
-  // border: solid 1px red;
   flex: 1 1 0;
 } 
 

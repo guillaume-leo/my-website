@@ -2,16 +2,16 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: center;
   gap: 15px;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: white;
 }
 
 .link {
   text-align: center;
   font-size: 40px;
 }
-
-
 
 .link--web-page {
   flex: 1 1 0px;
