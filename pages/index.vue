@@ -4,7 +4,7 @@
 
 <script setup>
 
-onMounted(() => {
+onMounted(async () => {
 
 })
 </script>

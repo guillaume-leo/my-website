@@ -8,7 +8,7 @@
       <NuxtLink @click="handleClick" class="link" to="/">Home</NuxtLink>
       <NuxtLink @click="handleClick" class="link" to="/cv">cv</NuxtLink>
       <NuxtLink @click="handleClick" class="link" to="/projects">projects</NuxtLink>
-      <NuxtLink @click="handleClick" class="link" to="/bandcamp">bandcamp</NuxtLink>
+      <NuxtLink @click="handleClick" class="link" to="/bc_lib">bancamp lib</NuxtLink>
       <NuxtLink @click="handleClick" class="link" to="/art">Art</NuxtLink>
       <NuxtLink @click="handleClick" class="link" to="/contact">Contact</NuxtLink>
     </div>

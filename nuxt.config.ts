@@ -2,5 +2,10 @@
 export default defineNuxtConfig({
   css: [
     '@/assets/main.scss'
-  ]
+  ],
+  vite: {
+    vue: {
+      reactivityTransform: true
+    }
+  }
 })
