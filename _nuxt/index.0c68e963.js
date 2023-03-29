@@ -1,0 +1,1 @@
+import{a as e,H as a,b as t,o as n}from"./entry.71be354a.js";const o={__name:"index",setup(s){return a(async()=>{}),(_,d)=>(n(),t("p",null," Hi, I'm Guillaume. On this Website you'll find everything related to my work as a web developer and audio/visual artist. "))}},l=e(o,[["__scopeId","data-v-91290d7a"]]);export{l as default};
