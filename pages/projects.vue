@@ -26,9 +26,35 @@ const projects = [
     ]
   },
   {
+    title: 'RGB124',
+    date: '2022',
+    screenshot: ['/rgb124.png'],
+    description: 'Alex GD wanted a website to show his work as a video creator.',
+    technologies: ['nuxt 3', 'vue 3', 'babylon js', 'sass', 'google sheet (as database)', 'github pages'],
+    links: [
+      {
+        text: 'website',
+        url: 'https://www.rgb124.be'
+      },
+      {
+        text: 'code source',
+        url: 'https://github.com/guillaume-leo/rgb124'
+      },
+    ]
+  },
+
+  {
+    title: 'Palsembleu visuals',
+    date: '2022',
+    screenshot: ['/pal1.jpg', '/pal3.jpg', '/pal2.jpg'],
+    description: 'Real time particle simulation to accompany the ambient project Palsembleu (Belgium)',
+    technologies: ['max/msp', 'glsl', 'javascript', 'Scheme'],
+    links: []
+  },
+  {
     title: 'damn good cafe',
     date: '2023',
-    screenshot: null,
+    screenshot: ['/damngood.png'],
     description: 'A website for a coffee bar based in brussels',
     technologies: ['nuxt 3', 'vue 3', 'sass', 'google sheet (as database)', 'github pages'],
     links: [
@@ -43,21 +69,22 @@ const projects = [
     ]
   },
   {
-    title: 'RGB124',
-    date: '2022',
-    screenshot: null,
-    description: 'Alex GD wanted a website to show his work as a video creator.',
-    technologies: ['nuxt 3', 'vue 3', 'babylon js', 'sass', 'google sheet (as database)', 'github pages'],
+    title: 'SlowLands visuals',
+    date: '2021',
+    screenshot: ['/slowlands.png'],
+    description: 'Real time particle simulation to accompany the ambient project SlowLands (Belgium)',
+    technologies: ['max/msp', 'glsl', 'javascript', 'Scheme'],
     links: [
       {
-        text: 'website',
-        url: 'https://www.rgb124.be'
+        text: 'video',
+        url: 'https://youtu.be/nQUmSUTVXho'
       },
       {
-        text: 'code source',
-        url: 'https://github.com/guillaume-leo/rgb124'
+        text: 'slowlands music',
+        url: 'https://slowlands.bandcamp.com/'
       },
     ]
   },
+
 ]
 </script>

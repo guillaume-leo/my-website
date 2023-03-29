@@ -6,10 +6,10 @@
     </button>
     <div v-show="isNavOpen" class="links links--phone">
       <NuxtLink @click="handleClick" class="link" to="/">Home</NuxtLink>
-      <NuxtLink @click="handleClick" class="link" to="/cv">cv</NuxtLink>
+      <NuxtLink @click="handleClick" class="link" to="/cv">cv web</NuxtLink>
       <NuxtLink @click="handleClick" class="link" to="/projects">projects</NuxtLink>
-      <NuxtLink @click="handleClick" class="link" to="/bc_lib">bancamp lib</NuxtLink>
-      <NuxtLink @click="handleClick" class="link" to="/art">Art</NuxtLink>
+      <!-- <NuxtLink @click="handleClick" class="link" to="/bc_lib">bancamp lib</NuxtLink> -->
+      <!-- <NuxtLink @click="handleClick" class="link" to="/art">Art</NuxtLink> -->
       <NuxtLink @click="handleClick" class="link" to="/contact">Contact</NuxtLink>
     </div>
   </nav>
@@ -30,6 +30,14 @@ const handleNav = () => {
 }
 </script>
 
-<style>
+<style scoped>
+.links {
+  padding-block-start: 40px;
+  padding-inline-start: 15px;
+}
 
+.link {
+  font-size: 16px;
+  text-align: left;
+}
 </style>

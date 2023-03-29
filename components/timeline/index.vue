@@ -32,6 +32,19 @@ const events = [
     ]
   },
   {
+    moment: "2022 today",
+    title: 'Websites and visual creations',
+    description: "creation of multiple websites and real-time visuals for musicians",
+    mission: null,
+    technos: ['Nuxt', 'Javascript', 'max/msp', 'glsl'],
+    links: [
+      {
+        url: "https://www.guillaume-leo.com/projects",
+        text: 'projects gallery'
+      }
+    ]
+  },
+  {
     moment: "2021/07",
     title: 'Climact',
     description: 'A six month internship as front-end developer.',
@@ -41,19 +54,6 @@ const events = [
       {
         url: 'https://pathwaysexplorer.climact.com',
         text: 'webtool'
-      }
-    ]
-  },
-  {
-    moment: "2021/04",
-    title: 'SlowLands',
-    description: "creation of a real time particles simulation to accompany the musician",
-    mission: null,
-    technos: ['glsl', 'max/msp', 'scheme'],
-    links: [
-      {
-        url: "https://www.youtube.com/watch?v=nQUmSUTVXho",
-        text: 'video'
       }
     ]
   },
